@@ -1,0 +1,76 @@
+@import "./imports/_normalize.scss";
+
+
+*{ box-sizing: border-box }
+
+img {
+   width: 150;
+   display: flex;
+}
+
+.general{
+  padding-left: 10px;
+}
+
+.firstimg {
+  img{width: 100%;
+    padding: 15px 15px 0px 15px;
+}
+}
+.secondimg {
+  img { width: 100%;
+  padding: 15px 15px 0px 15px;
+}
+}
+.boton{
+  background-color: yellow;
+  border: 2px solid;
+  width: 100%;
+  padding: 10px 10px 10px 10;
+  font-size: 40px;
+}
+.thirdimg{
+  img{width: 100%;
+    padding: 15px 15px 0px 15px;
+}
+}
+.lastbox{
+  background-color: black;
+  color: white;
+  height:900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid beige;
+}
+.insidebox{
+  padding-top: 30px;
+  height: 50px;
+}
+.iconos{
+  list-style-type: none;
+  display:flex;
+justify-content: space-between;
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 0px;
+  font-size: 30px;
+}
+.jat{
+  font-size: 30px;
+  color: white;
+  border-bottom: 2px solid orange;
+}
+.parrafo2{
+  padding-bottom: 30px;
+}
+.exp{
+  font-size: 30px;
+  color: white;
+  border-bottom: 2px solid orange;
+}
+.see{
+  font-size: 30px;
+  color: white;
+  border-bottom: 2px solid orange;
+}
